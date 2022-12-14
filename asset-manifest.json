@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/snooker/static/css/main.e6c13ad2.css",
+    "main.js": "/snooker/static/js/main.6dad01e4.js",
+    "static/js/787.3ca3d10f.chunk.js": "/snooker/static/js/787.3ca3d10f.chunk.js",
+    "static/media/15reds.svg": "/snooker/static/media/15reds.adb691ad8bcf0f9909d794c676776eb1.svg",
+    "static/media/10reds.svg": "/snooker/static/media/10reds.956c142289adcad28ae6867242e6b5f7.svg",
+    "static/media/foul.svg": "/snooker/static/media/foul.7bd7a1fa2a56b9830aa6edc55d5d6f21.svg",
+    "static/media/6reds.svg": "/snooker/static/media/6reds.b40245d3bd72716ab85759f75ad642d7.svg",
+    "static/media/endturn.svg": "/snooker/static/media/endturn.86b6afac5ff98307e0c1cb1137c2b355.svg",
+    "static/media/pink.svg": "/snooker/static/media/pink.56ee6c4506c0f6d28dc805c3581b9824.svg",
+    "static/media/yellow.svg": "/snooker/static/media/yellow.8494cf847bcb1c4db8d939cb2ab212f1.svg",
+    "static/media/brown.svg": "/snooker/static/media/brown.4cad5b16bec1a8f8650601748d42141b.svg",
+    "static/media/green.svg": "/snooker/static/media/green.9dd78d6dc756af75bc3374b89bcdd2c2.svg",
+    "static/media/blue.svg": "/snooker/static/media/blue.ded38c0af74b1c1eaebbaa948d58f301.svg",
+    "static/media/red.svg": "/snooker/static/media/red.2f6e455cd78776ad31fea42d4b158867.svg",
+    "static/media/black.svg": "/snooker/static/media/black.a3d47a58d731cd477296a752df293111.svg",
+    "index.html": "/snooker/index.html",
+    "main.e6c13ad2.css.map": "/snooker/static/css/main.e6c13ad2.css.map",
+    "main.6dad01e4.js.map": "/snooker/static/js/main.6dad01e4.js.map",
+    "787.3ca3d10f.chunk.js.map": "/snooker/static/js/787.3ca3d10f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6dad01e4.js"
+  ]
+}
