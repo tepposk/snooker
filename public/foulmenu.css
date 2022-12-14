@@ -1,0 +1,128 @@
+#foulMenu {
+    color: #FFFFFF;
+    background-color: #2a2a2a;
+    padding: 5%;
+    margin: min(5%, 25px);
+    border-radius: 1em;
+    text-align: left;
+}
+
+#close {
+    position: relative;
+    top: 0;
+    float: right;
+    color: #FFFFFF;
+}
+
+#close:hover {
+    cursor: pointer;
+}
+
+#foulMenu h3 {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px 0 8% 0;
+}
+
+#pointsForOpponent,
+#redsRemoved,
+#freeBallNext,
+#totalPointsConceded {
+    display: inline-block;
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.formControls {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 3%;
+}
+
+.plusMinus {
+    color: #FFFFFF;
+    background-color: #181818;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin: 0 0.5em 0 0.5em;
+}
+
+.plusMinus:hover {
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 25%;
+}
+
+.plusMinus:disabled:hover {
+    cursor: default;
+}
+
+.displayValue {
+    display: inline-block;
+    background-color: #181818;
+    text-align: center;
+    height: 32px;
+    width: 48px;
+}
+
+#freeBall {
+    display: flex;
+    margin: 3% auto 0 auto;
+    width: 48px;
+    height: 32px;
+    background-color: #181818;
+}
+
+#freeBallNext {
+    margin-bottom: 5%;
+}
+
+#totalPointsConceded {
+    text-align: left;
+}
+
+#foulButtonsArea {
+    display: flex;
+    height: 100%;
+}
+
+.buttonWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 60%;
+    text-align: center;
+}
+
+.foulButtons {
+    color: #FFFFFF;
+    background-color: #424242;
+    font-weight: bold;
+    height: 50px;
+    width: 100%;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#foulConfirm {
+    background-color: #a10020;
+}
+
+.foulButtons:hover {
+    cursor: pointer;
+}
+
+#or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin: 15px 30px 0 30px;
+}

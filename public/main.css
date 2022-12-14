@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    background-color: #deccb8;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 50vw 50vw;
+    column-gap: 30px;
+    color: #FFFFFF;
+    width: 100vw;
+    height: 150px;
+    background-color: #2a2a2a;
+    font-family: Verdana;
+}
+
+.playerScore {
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    max-width: 510px;
+    margin: 20px;
+    background-color: #424242;
+    border-radius: 0.2em;
+    text-shadow: 0.07em 0.07em 0px rgba(18, 18, 18, 1);
+}
+
+#p2Score {
+    background-color: #2a2a2a;
+}
+
+.playerScore:hover {
+    cursor: pointer;
+}
+
+.playerName {
+    font-family: "Lato", sans-serif;
+    font-size: 0.2em;
+    font-weight: 500;
+    text-shadow: none;
+}
+
+#info {
+    display: none;
+}
+
+#breakCounter {
+    background-color: #FFFFFF;
+    visibility: hidden;
+}
+
+#control {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100vw;
+    width: 100vw;
+    max-width: 1200px;
+    height: 100vw;
+    max-height: 600px;
+    margin: auto;
+}
+
+
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+#red,
+#yellow,
+#green,
+#brown,
+#blue,
+#pink,
+#black,
+#foul,
+#endturn,
+#test {
+    height: 25vw;
+    max-height: 150px;
+    width: 25vw;
+    max-width: 150px;
+    margin: 0.7em;
+    border-radius: 50%;
+}
+
+.ball:hover {
+    cursor: pointer;
+}
+
+.ball:disabled {
+    cursor: default;
+    opacity: 25%;
+}
+
+::selection {
+    background-color: #af9a83
+}
